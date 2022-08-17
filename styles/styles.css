@@ -1,0 +1,96 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: rgba(255, 255, 255, 0.6);
+    --title-color: #212121;
+    --white-color:#ffffff;
+    --black-color: #000000;
+    --accent-color: #2196F3;
+    --secondary-background-color: #2F303A;
+    --background-filter-buttons: #F5F4FA;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+
+/* Navigation */
+.logo {
+    color: var(--accent-color);
+}
+
+.logo-black {
+    color: var(--black-color);
+}
+
+.logo-white {
+    color: var(--white-color);
+}
+
+.nav-link {
+    color: var(--title-color);
+}
+
+.contact-link {
+    color: var(--primary-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus,
+.footer-contact:hover,
+.footer-contact:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .nav-link.current {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero,
+.footer {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+}
+
+/* main */
+
+.title{
+    color: var(--title-color);
+}
+
+/* footer */
+
+.address {
+    color: var(--white-color);
+}
+
+.footer-contact {
+    color: var(--secondary-text-color);
+}
+
+
+/* Portfolio page */
+
+.services {
+    color: var(--title-color);
+    background-color: var(--background-filter-buttons);
+}
+
+.services:hover,
+.services:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    
+}
