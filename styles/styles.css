@@ -24,6 +24,10 @@ body {
 .button {
     cursor: pointer;
 }
+
+.title {
+    color: var(--title-color);
+}
 /* Navigation */
 
 
@@ -111,9 +115,6 @@ body {
 
 /* features */
 
-.title {
-    color: var(--title-color);
-}
 
 .features-list .title {
     font-weight: 700;
@@ -129,7 +130,7 @@ body {
 
 /* what we do */
 
-.work-type .title,
+.offer .title,
 .team > .title {    
     font-weight: 700;
     font-size: 36px;
@@ -188,9 +189,9 @@ body {
     
 }
 
-/* filters elements */
+/* filter elements */
 
-.element-filter {
+.element-filter a {
     text-decoration: none;
 }
 
